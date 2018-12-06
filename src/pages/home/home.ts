@@ -7,8 +7,13 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  input;
   constructor(public navCtrl: NavController) {
+    this.input = '1';
+  }
 
+  update(){
+    this.input += '1'
   }
 
 }
